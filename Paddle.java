@@ -1,9 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 
-
-
 public class Paddle extends Rectangle{
+
     int id;
     int yVelocity;
     int speed=10;
@@ -36,6 +35,7 @@ public class Paddle extends Rectangle{
                 break;
         }
     }
+
     public void keyReleased(KeyEvent e){
         switch (id){
             case 1:

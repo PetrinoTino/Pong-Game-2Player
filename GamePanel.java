@@ -81,7 +81,7 @@ Toolkit.getDefaultToolkit().sync(); // I forgot to add this line of code in the 
 		}
 		if(ball.intersects(paddle2)) {
 			ball.xVelocity = Math.abs(ball.xVelocity);
-			ball.xVelocity++; //optional for more difficulty
+			ball.xVelocity++;
 			if(ball.yVelocity>0)
 				ball.yVelocity++; //optional for more difficulty
 			else
